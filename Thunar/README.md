@@ -4,9 +4,9 @@
 
 * First you gotta have full path in Thunar window Title\
 run in terminal:\
-`xfconf-query --channel thunar --property /misc-image-size-in-statusbar --create --type bool --set true`
+`xfconf-query --channel thunar --property /misc-full-path-in-title --create --type bool --set true`
 
-* copy the open_terminal_here.bash file into your prefered folder (recommend: /usr/local/bin) folder\
+* copy the open_terminal_here.bash file into your prefered folder (eg: /usr/local/bin) folder\
 run in terminal:\
 `chmod u+r+x /path/to/bash/file/open_terminal_here.bash`
 
